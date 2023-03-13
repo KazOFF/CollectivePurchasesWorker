@@ -1,0 +1,4 @@
+#Thu Mar 02 23:06:58 MSK 2023
+headless=false
+server=localhost\:9090
+token=jwt_token

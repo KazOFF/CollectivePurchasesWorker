@@ -1,0 +1,15 @@
+grpc:
+  client:
+    GLOBAL:
+      negotiation-type: PLAINTEXT
+      address: static://localhost:9090
+
+spring:
+  devtools:
+    livereload:
+      port: 35730
+
+app:
+  timeout:
+    poll: 10000
+    wait: 180000
